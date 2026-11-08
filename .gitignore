@@ -1,0 +1,13 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Local agent settings (personal, not shared)
+.claude/settings.local.json
+
+# Scratch
+*.tmp
+*.bak
