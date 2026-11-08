@@ -3,14 +3,14 @@ id: DOMAIN-VISION
 title: Vision
 status: draft
 updated: 2026-11-08
-sources: [WS00, WS01]
+sources: [WS00, WS01, WS02]
 ---
 
 # Vision
 
 ## In one sentence
 
-Cumulus Finance lets an investor **monitor their whole Financial wealth, past and present, in fine detail**, and **supports independent arbitrage decisions** within their overall strategy.
+Cumulus Finance lets an investor **monitor their whole Financial wealth, past and present, in fine detail**, and **supports independent Investment decisions** within their overall strategy.
 
 ## Context & origin
 
@@ -29,7 +29,7 @@ Cumulus Finance lets an investor **monitor their whole Financial wealth, past an
 | P4 | No display in instrument / reference currency, each optionally inflation-adjusted; no split of currency effect vs instrument performance | investor | — | none | 4 |
 | P5 | Operation costs (FX fees, brokerage fees, taxes, social contributions — paid and virtually due) are not visible; no gross vs net view | investor | — | none | 5 |
 | P6 | The basis of displayed performance figures is unclear (gross or net? fees? dividends?) | investor | — | none | 6 |
-| P7 | Arbitrage depends on a community method (Trident); no independent decision support | investor | — | none | 7 |
+| P7 | Investment decisions depend on a community method (Trident); no independent decision support | investor | — | none | 7 |
 
 Frequency / cost was given once for the top problems; "—" means not asked separately.
 
@@ -40,7 +40,7 @@ The investor's goal is to grow their assets. **Cumulus's goal is to monitor (obs
 | Horizon | Goal | Observable signal |
 |---|---|---|
 | 1 year | No manual entry for broker accounts (import only); real cost of every past operation known | number of manual entries; fees discovered that were unknown |
-| 3 years | Arbitrage choices made without Trident; other users use the application | net performance vs indexes (e.g. S&P 500) **shown on a clear net basis**, whatever the result |
+| 3 years | Investment decisions made without Trident; other users use the application | net performance vs indexes (e.g. S&P 500) **shown on a clear net basis**, whatever the result |
 | 5 years | — (no target) | — |
 
 Manual entry stays acceptable for Accounts at a bank, insurer or employee savings provider for now.

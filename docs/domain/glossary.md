@@ -3,7 +3,7 @@ id: DOMAIN-GLOSSARY
 title: Glossary (ubiquitous language)
 status: draft
 updated: 2026-11-08
-sources: [WS00, WS01]
+sources: [WS00, WS01, WS02]
 ---
 
 # Glossary — ubiquitous language
@@ -39,6 +39,10 @@ Terms marked *agreed WS01* were decided by the owner in [WS01](../workshops/2026
 | Dividend | Distribution decided by the issuer (a Corporate action); its payment on an Account is an Operation with a gross amount, Withholding tax and a net amount — *agreed WS01* | — | — | — | dividende | (global) | draft |
 | Withholding tax | Tax deducted at source on a Dividend, typically by the issuer's country; always shown as an Operation cost — *agreed WS01* | 15 % on a US dividend | — | — | retenue à la source | (global) | draft |
 | Cash movement | Deposit or withdrawal of cash on an Account — *agreed WS01* | Monthly deposit on the PEA | Trade | — | versement / retrait | (global) | draft |
+| Order | Instruction given by the Investor to a Broker to buy or sell an Instrument, with a limit price and a validity; executed, partly executed, expired or cancelled — *raised WS02* | Buy 1 Meta at ≤ $610, valid today | Trade | — | ordre | (global) | draft |
+| Account transfer | Moving an Account and its Lots from one Institution to another, keeping its history and Tax regime — *raised WS02* | The owner's PEA moved to Saxo | Cash withdrawal | — | transfert de compte | (global) | draft |
+| Discrepancy | Mismatch found by Cumulus between imported records and expectations (unexplained cost, inconsistent figures); the Broker remains the reference — *raised WS02* | Unexplained FX fee on a purchase | — | error | écart | (global) | draft |
+| Annual tax statement | Yearly tax document issued by a Broker, also sent to the tax administration — *raised WS02* | IFU from Saxo | Tax return | — | IFU (imprimé fiscal unique) | (global) | draft |
 | Operation report | Export of Operations issued by a Broker | `.xlsx` export from Saxo | — | — | rapport d'opérations | (global) | draft |
 | Operation cost | Everything an Operation costs besides the price: FX fee, brokerage fee, Withholding tax, taxes, social contributions | — | Price | fees | coût d'opération | (global) | draft |
 
@@ -59,12 +63,17 @@ Terms marked *agreed WS01* were decided by the owner in [WS01](../workshops/2026
 
 | Term | Definition | Example | Not to be confused with | Synonyms to avoid | Original | Context | Status |
 |---|---|---|---|---|---|---|---|
-| Arbitrage | To define — a decision about what to buy, sell or reinforce to grow Assets | Choosing the weekly purchase | — | — | arbitrage | (global) | draft |
+| Investment decision | The Investor's decision about what to buy, sell or reinforce to grow their Assets — *agreed WS02* | Choosing this week's purchase | Fund switch | arbitrage | décision d'investissement | (global) | draft |
+| Investment method | The approach an Investor follows to make Investment decisions (cadence, criteria, rules); can change over time — *raised WS02* | Trident method: weekly purchase, POL-001 | Investment plan | strategy | méthode d'investissement | (global) | draft |
+| Investment plan | The Investor's dollar-cost averaging settings: frequency, recurring deposit, capital to deploy and deployment period — *raised WS02* | Monthly, 1,000 € deposit, 50,000 € over 20 months | Investment method | — | investissement programmé | (global) | draft |
+| Selection | List of qualified Instruments maintained by an Idea source or the Investor, from which purchases are chosen; not a Portfolio — *agreed WS02* | Trident's gold / silver / bronze shares | Portfolio | portfolio of shares | sélection | (global) | draft |
+| Estimated return | Forecast yearly return of an Instrument in the Selection; entered manually at first — *raised WS02* | 14 %/yr for Meta | Annualized performance | — | rendement estimé | (global) | draft |
+| Fund switch | Moving savings between funds inside a life insurance contract — *agreed WS02* | Euro fund → unit-linked fund | Investment decision | arbitrage (in English) | arbitrage (assurance vie) | (global) | draft |
 | Reinforce | To define — buy more of an Instrument already held | "Stock to reinforce: Meta" | — | — | renforcer | (global) | draft |
 | Weekly purchase | To define — the Investor's recurring purchase each week | — | — | — | achat hebdomadaire | (global) | draft |
 | Overall strategy | To define — the Investor's strategy across all Accounts | — | — | — | stratégie globale | (global) | draft |
-| Monitoring | Observing the past and current state of the Financial wealth | — | Arbitrage | — | monitorer | (global) | draft |
-| Idea source | Provider of selection criteria or arbitrage ideas | Trident, a Guru | — | — | — | (global) | draft |
+| Monitoring | Observing the past and current state of the Financial wealth | — | Investment decision | — | monitorer | (global) | draft |
+| Idea source | Provider of selection criteria or investment ideas | Trident, a Guru | — | — | — | (global) | draft |
 | Guru | To define — a recognized investor whose analyses or holdings are followed | Joseph Carlson | Idea source | — | gourou | (global) | draft |
 
 ## Deprecated
@@ -72,5 +81,6 @@ Terms marked *agreed WS01* were decided by the owner in [WS01](../workshops/2026
 | Term | Replaced by | Since |
 |---|---|---|
 | Envelope | Account type + Tax regime | WS01 |
+| Arbitrage | Investment decision (buy / sell / reinforce) or Fund switch (life insurance); in English "arbitrage" also means risk-free profit from a price gap | WS02 |
 
 Trident-specific terms seen on screenshots (medal, podium, Trident score, discount, estimated return, qualification filter, paused stock, exit) are kept in the [WS00 record](../workshops/2026-11-08-ws00-brief/record.md) only, until Cumulus adopts its own criteria.

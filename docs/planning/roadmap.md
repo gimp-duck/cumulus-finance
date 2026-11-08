@@ -3,7 +3,7 @@ id: PLANNING-ROADMAP
 title: Roadmap
 status: draft
 updated: 2026-11-08
-sources: [ADR-0001, ADR-0002, WS00, WS01]
+sources: [ADR-0001, ADR-0002, WS00, WS01, WS02]
 ---
 
 # Roadmap
@@ -16,8 +16,8 @@ Phases are described in [`method/process.md`](../method/process.md). This file t
 |---|---|---|---|
 | WS00 | Project brief | [brief](../method/playbooks/brief.md) | done 2026-11-08 — [record](../workshops/2026-11-08-ws00-brief/record.md); owner review pending |
 | WS01 | Glossary — core holding and operation terms (Q-012, Q-013) | [ubiquitous-language](../method/playbooks/ubiquitous-language.md) | done 2026-11-08 — [record](../workshops/2026-11-08-ws01-glossary/record.md); owner review pending |
-| WS02 | Big Picture EventStorming | [eventstorming-big-picture](../method/playbooks/eventstorming-big-picture.md) | **next** |
-| WS03+ | Domain stories on key flows | [domain-storytelling](../method/playbooks/domain-storytelling.md) | planned |
+| WS02 | Big Picture EventStorming | [eventstorming-big-picture](../method/playbooks/eventstorming-big-picture.md) | done 2026-11-08 — [record](../workshops/2026-11-08-ws02-eventstorming-big-picture/record.md); owner review pending |
+| WS03+ | Domain stories on key flows — first: "Operation report imported → real cost of each Operation" (first version) | [domain-storytelling](../method/playbooks/domain-storytelling.md) | **next** |
 | — | Glossary review (as needed) | [ubiquitous-language](../method/playbooks/ubiquitous-language.md) | continuous |
 
 Exit criteria: see [process](../method/process.md#phase-1--align--discover-current).
