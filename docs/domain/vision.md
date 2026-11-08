@@ -2,7 +2,7 @@
 id: DOMAIN-VISION
 title: Vision
 status: draft
-updated: <yyyy-mm-dd>
+updated: 2026-11-08
 sources: []
 ---
 

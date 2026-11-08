@@ -3,8 +3,6 @@
 Instructions for any AI agent working in this repository (Claude Code, Codex, Copilot, Cursor, Gemini CLI, …).
 This file is the **single source of truth** for agent rules; agent-specific files (`CLAUDE.md`, `.claude/skills/`) only point here or to `docs/method/`.
 
-> **Not initialized yet?** If [`TEMPLATE-SETUP.md`](TEMPLATE-SETUP.md) exists at the repository root, this project was just created from the template: follow that file first, before anything else.
-
 ## Project state
 
 - Phase: **1 — Align & Discover**. There is no code. Do not propose technologies, frameworks, databases or architectures.

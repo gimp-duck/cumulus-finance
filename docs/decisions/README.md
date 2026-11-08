@@ -5,5 +5,5 @@ Accepted records are never edited in substance: a new record supersedes them.
 
 | ADR | Title | Status | Date |
 |---|---|---|---|
-| [0001](0001-git-hosting.md) | Host the repository on GitHub | accepted | <yyyy-mm-dd> |
-| [0002](0002-agent-neutral-docs-as-code.md) | Agent-neutral docs-as-code documentation | accepted | <yyyy-mm-dd> |
+| [0001](0001-git-hosting.md) | Host the repository on GitHub | accepted | 2026-11-08 |
+| [0002](0002-agent-neutral-docs-as-code.md) | Agent-neutral docs-as-code documentation | accepted | 2026-11-08 |

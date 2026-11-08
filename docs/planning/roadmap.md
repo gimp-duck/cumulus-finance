@@ -2,7 +2,7 @@
 id: PLANNING-ROADMAP
 title: Roadmap
 status: draft
-updated: <yyyy-mm-dd>
+updated: 2026-11-08
 sources: [ADR-0001, ADR-0002]
 ---
 

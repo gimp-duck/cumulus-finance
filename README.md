@@ -1,16 +1,10 @@
-# ddd-discovery-template
+# Cumulus Finance
 
-> Template repository — **Phase 1 — Align & Discover** (domain discovery, no code yet)
+> **Phase 1 — Align & Discover** (domain discovery, no code yet)
 
-A ready-to-use workspace to discover and specify a new product with **Domain-Driven Design (DDD)**, through structured workshops run with an AI agent. Everything is plain Markdown / Mermaid, readable by humans and by any AI agent.
+_One-sentence description: to be produced by the WS00 project brief._
 
-## Using this template
-
-1. Create a repository from it:
-   `gh repo create <name> --private --template gimp-duck/ddd-discovery-template --clone`
-   (or **Use this template** on GitHub).
-2. Open an AI agent session in the new folder and ask it to initialize the project — it will follow [`TEMPLATE-SETUP.md`](TEMPLATE-SETUP.md).
-3. Start with the WS00 project brief.
+The product is discovered and specified with **Domain-Driven Design (DDD)**, through structured workshops run with an AI agent. Everything is plain Markdown / Mermaid, readable by humans and by any AI agent.
 
 ## Where to start
 

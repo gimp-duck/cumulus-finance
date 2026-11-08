@@ -2,7 +2,7 @@
 id: ADR-0001
 title: Host the repository on GitHub
 status: accepted
-date: <yyyy-mm-dd>
+date: 2026-11-08
 deciders: [owner]
 ---
 

@@ -2,7 +2,7 @@
 id: DOMAIN-ACTORS
 title: Actors
 status: draft
-updated: <yyyy-mm-dd>
+updated: 2026-11-08
 sources: []
 ---
 

@@ -2,7 +2,7 @@
 id: ADR-0002
 title: Agent-neutral docs-as-code documentation
 status: accepted
-date: <yyyy-mm-dd>
+date: 2026-11-08
 deciders: [owner]
 ---
 

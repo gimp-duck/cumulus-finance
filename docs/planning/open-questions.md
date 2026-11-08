@@ -2,7 +2,7 @@
 id: PLANNING-OPEN-QUESTIONS
 title: Open questions & hotspots
 status: draft
-updated: <yyyy-mm-dd>
+updated: 2026-11-08
 sources: []
 ---
 
