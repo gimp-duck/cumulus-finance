@@ -3,7 +3,7 @@ id: DOMAIN-ACTORS
 title: Actors
 status: draft
 updated: 2026-11-08
-sources: [WS00]
+sources: [WS00, WS01]
 ---
 
 # Actors
@@ -13,7 +13,7 @@ Institutions are modeled as **roles**: the named organizations are today's examp
 
 | ID | Name | Type | Description | Goals / interests | Status |
 |---|---|---|---|---|---|
-| ACT-001 | Investor | person role | Person who holds financial assets and uses Cumulus — today only the owner | Monitor holdings precisely; make independent arbitrage decisions to grow assets | draft |
+| ACT-001 | Investor | person role | Person who holds financial assets and uses Cumulus — today only the owner | Monitor their Financial wealth precisely; make independent arbitrage decisions to grow assets | draft |
 | ACT-002 | Relative / community member | person role | Possible future user (3-year goal); who pays is undecided ([Q-005](../planning/open-questions.md)) | Same as Investor | draft |
 | ACT-003 | Broker | organization | Holds securities accounts (e.g. CTO, PEA) with stocks, ETFs and cash; issues operation reports — e.g. Saxo | — | draft |
 | ACT-004 | Bank | organization | Holds regulated savings and savings plans (e.g. Livret A, LDDS, savings account, PEL, CEL) — e.g. La Banque Postale | — | draft |
@@ -23,6 +23,6 @@ Institutions are modeled as **roles**: the named organizations are today's examp
 | ACT-008 | AI assistant | candidate role | Owner's idea: analysis, projection, decision support; never decides (N2). Scope open ([Q-004](../planning/open-questions.md)) | — | draft |
 | ACT-009 | Market data source | external system | ⚠ ASSUMPTION: provides price, dividend and FX history ([Q-010](../planning/open-questions.md)) | — | draft |
 | ACT-010 | Inflation statistics source | external system | ⚠ ASSUMPTION: provides inflation per user country ([Q-002](../planning/open-questions.md)) | — | draft |
-| ACT-011 | Tax authority | organization | ⚠ ASSUMPTION: sets tax and social contribution rules per envelope ([Q-001](../planning/open-questions.md)) | — | draft |
+| ACT-011 | Tax authority | organization | ⚠ ASSUMPTION: sets tax and social contribution rules per Account type ([Q-001](../planning/open-questions.md)) | — | draft |
 
 `Type`: person role · organization · external system.

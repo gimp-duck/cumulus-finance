@@ -3,14 +3,14 @@ id: DOMAIN-VISION
 title: Vision
 status: draft
 updated: 2026-11-08
-sources: [WS00]
+sources: [WS00, WS01]
 ---
 
 # Vision
 
 ## In one sentence
 
-Cumulus Finance lets an investor **monitor all of their financial holdings, past and present, in fine detail**, and **supports independent arbitrage decisions** within their overall strategy.
+Cumulus Finance lets an investor **monitor their whole Financial wealth, past and present, in fine detail**, and **supports independent arbitrage decisions** within their overall strategy.
 
 ## Context & origin
 
@@ -23,7 +23,7 @@ Cumulus Finance lets an investor **monitor all of their financial holdings, past
 
 | # | Problem | Who suffers | Frequency / cost | Current workaround | Priority |
 |---|---|---|---|---|---|
-| P1 | No consolidated view of holdings spread across several brokers, banks, insurers and employee savings providers | investor | every weekly purchase; lost time | none | 1 |
+| P1 | No consolidated view of the Financial wealth spread across several brokers, banks, insurers and employee savings providers | investor | every weekly purchase; lost time | none | 1 |
 | P2 | Broker operations are re-entered manually in another tool (no import) | investor | every weekly purchase; lost time | none | 2 |
 | P3 | No per-instrument history highlighting the investor's buys/sells; no per-operation view of cost at purchase vs value now or at a chosen date | investor | every weekly purchase; unseen fees | none | 3 |
 | P4 | No display in instrument / reference currency, each optionally inflation-adjusted; no split of currency effect vs instrument performance | investor | — | none | 4 |
@@ -43,7 +43,7 @@ The investor's goal is to grow their assets. **Cumulus's goal is to monitor (obs
 | 3 years | Arbitrage choices made without Trident; other users use the application | net performance vs indexes (e.g. S&P 500) **shown on a clear net basis**, whatever the result |
 | 5 years | — (no target) | — |
 
-Manual entry stays acceptable for bank, insurer and employee savings holdings for now.
+Manual entry stays acceptable for Accounts at a bank, insurer or employee savings provider for now.
 
 ## Non-goals
 
@@ -78,6 +78,6 @@ Covers P2, P3 and part of P5. P1 (consolidated view) is **deliberately left out*
 | R1 | Market data: getting price, dividend and FX history reliably, legally and affordably | top 3 |
 | R2 | Import formats: each broker exports its own way; formats may change without notice | top 3 |
 | R4 | Corporate actions (splits, mergers, spin-offs, stock dividends) distort history if ignored — already seen mishandled on Trident | top 3 |
-| R3 | Tax complexity: rules differ per envelope and age, and change with finance laws | — |
+| R3 | Tax complexity: rules differ per Account type and age, and change with finance laws | — |
 | R5 | Ambition: many needs for a solo developer; risk of never shipping the first version | — |
 | R6 | Accuracy: a wrong cost or performance shown confidently leads to a bad decision | — |

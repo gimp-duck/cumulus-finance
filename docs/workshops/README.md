@@ -6,3 +6,4 @@ Records are **append-only**: they describe what happened; the current truth live
 | # | Date | Type | Topic | Record |
 |---|---|---|---|---|
 | WS00 | 2026-11-08 | Project brief | Cumulus Finance | [record](2026-11-08-ws00-brief/record.md) |
+| WS01 | 2026-11-08 | Ubiquitous language | Core holding and operation terms | [record](2026-11-08-ws01-glossary/record.md) |

@@ -3,7 +3,7 @@ id: PLANNING-ROADMAP
 title: Roadmap
 status: draft
 updated: 2026-11-08
-sources: [ADR-0001, ADR-0002, WS00]
+sources: [ADR-0001, ADR-0002, WS00, WS01]
 ---
 
 # Roadmap
@@ -15,8 +15,9 @@ Phases are described in [`method/process.md`](../method/process.md). This file t
 | # | Workshop | Playbook | Status |
 |---|---|---|---|
 | WS00 | Project brief | [brief](../method/playbooks/brief.md) | done 2026-11-08 — [record](../workshops/2026-11-08-ws00-brief/record.md); owner review pending |
-| WS01 | Big Picture EventStorming | [eventstorming-big-picture](../method/playbooks/eventstorming-big-picture.md) | **next** — answer Q-012 and Q-013 first (vocabulary) |
-| WS02+ | Domain stories on key flows | [domain-storytelling](../method/playbooks/domain-storytelling.md) | planned |
+| WS01 | Glossary — core holding and operation terms (Q-012, Q-013) | [ubiquitous-language](../method/playbooks/ubiquitous-language.md) | done 2026-11-08 — [record](../workshops/2026-11-08-ws01-glossary/record.md); owner review pending |
+| WS02 | Big Picture EventStorming | [eventstorming-big-picture](../method/playbooks/eventstorming-big-picture.md) | **next** |
+| WS03+ | Domain stories on key flows | [domain-storytelling](../method/playbooks/domain-storytelling.md) | planned |
 | — | Glossary review (as needed) | [ubiquitous-language](../method/playbooks/ubiquitous-language.md) | continuous |
 
 Exit criteria: see [process](../method/process.md#phase-1--align--discover-current).
