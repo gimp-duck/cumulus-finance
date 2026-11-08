@@ -1,7 +1,7 @@
 # Documentation map
 
 > **Current phase:** 1 — Align & Discover
-> **Next step:** WS00 — Project brief (see [`planning/roadmap.md`](planning/roadmap.md))
+> **Next step:** WS01 — Big Picture EventStorming (see [`planning/roadmap.md`](planning/roadmap.md))
 
 The documentation separates three kinds of content. Workshops **feed** the domain model; the method tells how.
 
@@ -28,7 +28,7 @@ flowchart LR
 
 | Document | Status |
 |---|---|
-| [domain/vision.md](domain/vision.md) | draft (empty) |
-| [domain/actors.md](domain/actors.md) | draft (empty) |
-| [domain/glossary.md](domain/glossary.md) | draft (empty) |
+| [domain/vision.md](domain/vision.md) | draft (WS00) |
+| [domain/actors.md](domain/actors.md) | draft (WS00) |
+| [domain/glossary.md](domain/glossary.md) | draft (WS00 candidate terms) |
 | [domain/event-timeline.md](domain/event-timeline.md) | draft (empty) |

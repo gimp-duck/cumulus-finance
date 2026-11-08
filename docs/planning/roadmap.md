@@ -3,7 +3,7 @@ id: PLANNING-ROADMAP
 title: Roadmap
 status: draft
 updated: 2026-11-08
-sources: [ADR-0001, ADR-0002]
+sources: [ADR-0001, ADR-0002, WS00]
 ---
 
 # Roadmap
@@ -14,8 +14,8 @@ Phases are described in [`method/process.md`](../method/process.md). This file t
 
 | # | Workshop | Playbook | Status |
 |---|---|---|---|
-| WS00 | Project brief | [brief](../method/playbooks/brief.md) | **next** |
-| WS01 | Big Picture EventStorming | [eventstorming-big-picture](../method/playbooks/eventstorming-big-picture.md) | planned |
+| WS00 | Project brief | [brief](../method/playbooks/brief.md) | done 2026-11-08 — [record](../workshops/2026-11-08-ws00-brief/record.md); owner review pending |
+| WS01 | Big Picture EventStorming | [eventstorming-big-picture](../method/playbooks/eventstorming-big-picture.md) | **next** — answer Q-012 and Q-013 first (vocabulary) |
 | WS02+ | Domain stories on key flows | [domain-storytelling](../method/playbooks/domain-storytelling.md) | planned |
 | — | Glossary review (as needed) | [ubiquitous-language](../method/playbooks/ubiquitous-language.md) | continuous |
 
